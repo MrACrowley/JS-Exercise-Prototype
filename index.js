@@ -39,10 +39,16 @@ Airplane.prototype.land = function () {
         + It should return a string with `name` and `age`. Example: "Mary, 50"
 */
 
-function Person() {
-
+function Person(name,age) {
+  this.name = name;
+  this.age = age;
+  this.stomach = empty;
 }
-
+eat{someFood}{
+  return someFood
+}
+const person1 =new Person[]
+console.log(person1)
 /*
   TASK 2
     - Write a Car constructor that initializes `model` and `milesPerGallon` from arguments.
@@ -57,7 +63,7 @@ function Person() {
         + The `drive` method should return a string "I ran out of fuel at x miles!" x being `odometer`.
 */
 
-function Car() {
+function Car(model) {
 
 }
 
@@ -76,10 +82,10 @@ function Baby() {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Global context where it refers to the context outside and function.
+  2. Function context it works depending on the function. 
+  3. Class context it is similar with function but a clas conductor is a regular object.
+  4. Derived classes it uses a super() as a this function to make a binding within the constructor. 
 */
 
 
